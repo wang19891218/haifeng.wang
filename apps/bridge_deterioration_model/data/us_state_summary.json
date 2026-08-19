@@ -1,0 +1,372 @@
+{
+  "generated_at": "2026-05-06T00:35:41.774380+00:00",
+  "region": "Full US (50 states + DC + PR)",
+  "scope": "us",
+  "states": [
+    {
+      "state": "AK",
+      "bridge_count": 1619,
+      "mean_min_rating": 5.957998764669549,
+      "poor_count": 194,
+      "poor_pct": 11.98270537368746
+    },
+    {
+      "state": "AL",
+      "bridge_count": 10024,
+      "mean_min_rating": 6.001995211492418,
+      "poor_count": 655,
+      "poor_pct": 6.534317637669593
+    },
+    {
+      "state": "AR",
+      "bridge_count": 9776,
+      "mean_min_rating": 5.969926350245499,
+      "poor_count": 978,
+      "poor_pct": 10.004091653027823
+    },
+    {
+      "state": "AZ",
+      "bridge_count": 3847,
+      "mean_min_rating": 6.214452820379517,
+      "poor_count": 131,
+      "poor_pct": 3.405250844814141
+    },
+    {
+      "state": "CA",
+      "bridge_count": 22727,
+      "mean_min_rating": 5.719012628151538,
+      "poor_count": 2135,
+      "poor_pct": 9.394112729352752
+    },
+    {
+      "state": "CO",
+      "bridge_count": 7203,
+      "mean_min_rating": 5.916979036512564,
+      "poor_count": 571,
+      "poor_pct": 7.927252533666528
+    },
+    {
+      "state": "CT",
+      "bridge_count": 3698,
+      "mean_min_rating": 5.796376419686317,
+      "poor_count": 237,
+      "poor_pct": 6.408869659275284
+    },
+    {
+      "state": "DC",
+      "bridge_count": 252,
+      "mean_min_rating": 6.003968253968254,
+      "poor_count": 6,
+      "poor_pct": 2.380952380952381
+    },
+    {
+      "state": "DE",
+      "bridge_count": 676,
+      "mean_min_rating": 5.992603550295858,
+      "poor_count": 11,
+      "poor_pct": 1.6272189349112427
+    },
+    {
+      "state": "FL",
+      "bridge_count": 10681,
+      "mean_min_rating": 6.4737384140061796,
+      "poor_count": 522,
+      "poor_pct": 4.887182848047936
+    },
+    {
+      "state": "GA",
+      "bridge_count": 9727,
+      "mean_min_rating": 6.345738665570063,
+      "poor_count": 403,
+      "poor_pct": 4.143106816078956
+    },
+    {
+      "state": "HI",
+      "bridge_count": 1024,
+      "mean_min_rating": 5.7265625,
+      "poor_count": 93,
+      "poor_pct": 9.08203125
+    },
+    {
+      "state": "IA",
+      "bridge_count": 20039,
+      "mean_min_rating": 5.515394979789411,
+      "poor_count": 5544,
+      "poor_pct": 27.66605120015969
+    },
+    {
+      "state": "ID",
+      "bridge_count": 4608,
+      "mean_min_rating": 5.906032986111111,
+      "poor_count": 370,
+      "poor_pct": 8.02951388888889
+    },
+    {
+      "state": "IL",
+      "bridge_count": 22492,
+      "mean_min_rating": 6.003734661212875,
+      "poor_count": 3002,
+      "poor_pct": 13.346967810777166
+    },
+    {
+      "state": "IN",
+      "bridge_count": 17649,
+      "mean_min_rating": 6.04901127542637,
+      "poor_count": 1281,
+      "poor_pct": 7.25820159782424
+    },
+    {
+      "state": "KS",
+      "bridge_count": 16925,
+      "mean_min_rating": 6.143810930576071,
+      "poor_count": 1487,
+      "poor_pct": 8.785819793205318
+    },
+    {
+      "state": "KY",
+      "bridge_count": 11968,
+      "mean_min_rating": 5.744401737967914,
+      "poor_count": 1412,
+      "poor_pct": 11.79812834224599
+    },
+    {
+      "state": "LA",
+      "bridge_count": 10520,
+      "mean_min_rating": 5.657889733840304,
+      "poor_count": 1953,
+      "poor_pct": 18.564638783269963
+    },
+    {
+      "state": "MA",
+      "bridge_count": 5031,
+      "mean_min_rating": 5.642417014510038,
+      "poor_count": 598,
+      "poor_pct": 11.886304909560723
+    },
+    {
+      "state": "MD",
+      "bridge_count": 4089,
+      "mean_min_rating": 5.931523599902176,
+      "poor_count": 275,
+      "poor_pct": 6.725360723893372
+    },
+    {
+      "state": "ME",
+      "bridge_count": 2127,
+      "mean_min_rating": 5.487541137752704,
+      "poor_count": 400,
+      "poor_pct": 18.805829807240244
+    },
+    {
+      "state": "MI",
+      "bridge_count": 9452,
+      "mean_min_rating": 5.674037240795599,
+      "poor_count": 1397,
+      "poor_pct": 14.77994075327973
+    },
+    {
+      "state": "MN",
+      "bridge_count": 7801,
+      "mean_min_rating": 6.116908088706576,
+      "poor_count": 798,
+      "poor_pct": 10.229457761825406
+    },
+    {
+      "state": "MO",
+      "bridge_count": 19972,
+      "mean_min_rating": 5.9921890646905664,
+      "poor_count": 2794,
+      "poor_pct": 13.989585419587423
+    },
+    {
+      "state": "MS",
+      "bridge_count": 13640,
+      "mean_min_rating": 5.9708944281524925,
+      "poor_count": 1867,
+      "poor_pct": 13.687683284457478
+    },
+    {
+      "state": "MT",
+      "bridge_count": 5111,
+      "mean_min_rating": 5.801995695558599,
+      "poor_count": 528,
+      "poor_pct": 10.330659362160047
+    },
+    {
+      "state": "NC",
+      "bridge_count": 14045,
+      "mean_min_rating": 6.001423994304023,
+      "poor_count": 1514,
+      "poor_pct": 10.779636881452474
+    },
+    {
+      "state": "ND",
+      "bridge_count": 3227,
+      "mean_min_rating": 5.555624418964983,
+      "poor_count": 632,
+      "poor_pct": 19.584753641152773
+    },
+    {
+      "state": "NE",
+      "bridge_count": 11327,
+      "mean_min_rating": 5.798269621258939,
+      "poor_count": 1561,
+      "poor_pct": 13.781230687737265
+    },
+    {
+      "state": "NH",
+      "bridge_count": 2277,
+      "mean_min_rating": 6.261747913921827,
+      "poor_count": 206,
+      "poor_pct": 9.046991655687307
+    },
+    {
+      "state": "NJ",
+      "bridge_count": 6231,
+      "mean_min_rating": 5.751083293211362,
+      "poor_count": 507,
+      "poor_pct": 8.136735676456427
+    },
+    {
+      "state": "NM",
+      "bridge_count": 2272,
+      "mean_min_rating": 5.783010563380282,
+      "poor_count": 231,
+      "poor_pct": 10.16725352112676
+    },
+    {
+      "state": "NV",
+      "bridge_count": 1229,
+      "mean_min_rating": 6.387306753458096,
+      "poor_count": 26,
+      "poor_pct": 2.1155410903173313
+    },
+    {
+      "state": "NY",
+      "bridge_count": 15650,
+      "mean_min_rating": 5.858402555910543,
+      "poor_count": 2041,
+      "poor_pct": 13.041533546325878
+    },
+    {
+      "state": "OH",
+      "bridge_count": 25911,
+      "mean_min_rating": 6.609509474740458,
+      "poor_count": 1835,
+      "poor_pct": 7.0819343136119794
+    },
+    {
+      "state": "OK",
+      "bridge_count": 16289,
+      "mean_min_rating": 5.7032967032967035,
+      "poor_count": 2447,
+      "poor_pct": 15.022407759837927
+    },
+    {
+      "state": "OR",
+      "bridge_count": 7938,
+      "mean_min_rating": 5.91005291005291,
+      "poor_count": 547,
+      "poor_pct": 6.890904509952129
+    },
+    {
+      "state": "PA",
+      "bridge_count": 20856,
+      "mean_min_rating": 5.654392021480629,
+      "poor_count": 3685,
+      "poor_pct": 17.668776371308017
+    },
+    {
+      "state": "PR",
+      "bridge_count": 2059,
+      "mean_min_rating": 5.332685769791161,
+      "poor_count": 347,
+      "poor_pct": 16.85284118504128
+    },
+    {
+      "state": "RI",
+      "bridge_count": 794,
+      "mean_min_rating": 5.408060453400504,
+      "poor_count": 164,
+      "poor_pct": 20.65491183879093
+    },
+    {
+      "state": "SC",
+      "bridge_count": 8687,
+      "mean_min_rating": 6.001496489006562,
+      "poor_count": 1015,
+      "poor_pct": 11.684125705076552
+    },
+    {
+      "state": "SD",
+      "bridge_count": 4418,
+      "mean_min_rating": 5.250339520144862,
+      "poor_count": 1198,
+      "poor_pct": 27.11634223630602
+    },
+    {
+      "state": "TN",
+      "bridge_count": 11321,
+      "mean_min_rating": 5.871566116067485,
+      "poor_count": 1110,
+      "poor_pct": 9.804787562936136
+    },
+    {
+      "state": "TX",
+      "bridge_count": 36731,
+      "mean_min_rating": 6.2668046064632055,
+      "poor_count": 1177,
+      "poor_pct": 3.204377773542784
+    },
+    {
+      "state": "UT",
+      "bridge_count": 2516,
+      "mean_min_rating": 5.86724960254372,
+      "poor_count": 108,
+      "poor_pct": 4.292527821939586
+    },
+    {
+      "state": "VA",
+      "bridge_count": 11078,
+      "mean_min_rating": 5.918757898537642,
+      "poor_count": 614,
+      "poor_pct": 5.542516699765301
+    },
+    {
+      "state": "VT",
+      "bridge_count": 2641,
+      "mean_min_rating": 6.373343430518743,
+      "poor_count": 102,
+      "poor_pct": 3.8621734191594093
+    },
+    {
+      "state": "WA",
+      "bridge_count": 8005,
+      "mean_min_rating": 6.2433479075577765,
+      "poor_count": 563,
+      "poor_pct": 7.033104309806371
+    },
+    {
+      "state": "WI",
+      "bridge_count": 12741,
+      "mean_min_rating": 6.223373361588572,
+      "poor_count": 1240,
+      "poor_pct": 9.732360097323602
+    },
+    {
+      "state": "WV",
+      "bridge_count": 7021,
+      "mean_min_rating": 5.3825665859564165,
+      "poor_count": 1728,
+      "poor_pct": 24.61187864976499
+    },
+    {
+      "state": "WY",
+      "bridge_count": 2688,
+      "mean_min_rating": 5.7101934523809526,
+      "poor_count": 307,
+      "poor_pct": 11.421130952380953
+    }
+  ],
+  "total_bridges": 490630
+}

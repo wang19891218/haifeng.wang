@@ -1,0 +1,14 @@
+{
+  "status": "placeholder",
+  "bridges": [
+    {
+      "id": "AK-00000000000E101",
+      "role": "coastal"
+    },
+    {
+      "id": "WA-DAPFORLEW000018",
+      "role": "inland"
+    }
+  ],
+  "note": "coastline_distance_kilometers unavailable; picked first and last rows as a stand-in."
+}

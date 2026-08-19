@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image to Tupper Number</title>
+    <style>
+        body { text-align: center; }
+        canvas { border: 1px solid black; }
+        .converted-image {
+            margin-top: 20px;
+        }
+        #tupperNumber {
+            word-wrap: break-word; /* Enable soft wrap */
+            width: 80%; /* Adjust as needed */
+            margin: 0 auto; /* Center the text */
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Image to Tupper Number</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <canvas id="canvas"></canvas>
+    <div id="convertedImage" class="converted-image"></div>
+    <p id="tupperNumber"></p>
+    <script src="tupper.js"></script>
+</body>
+</html>

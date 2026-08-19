@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><!--
+      No-flash theme init. Must run synchronously, before first paint,
+      and as early in <head> as possible: reads the visitor's
+      persisted choice from localStorage, falls back to the OS
+      `prefers-color-scheme` when nothing is stored, and stamps
+      data-theme on <html> immediately -- so the CSS-variable-backed
+      colors in global.css resolve to the right mode on the very
+      first frame instead of flashing light and then swapping to
+      dark. `is:inline` keeps Astro from processing this as a module
+      or deferring it.
+    --><script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (err) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="description" content="A public-facing showcase of the HyperNetwork bridge deterioration model for FHWA Region 10 (WA / OR / ID / AK)."><title>State comparison - Bridge HyperNetwork</title><link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"><link rel="stylesheet" href="/apps/bridge_deterioration_model/_astro/_id_.BltOYmXv.css"><script type="module" src="/apps/bridge_deterioration_model/_astro/hoisted.WR4OUWlK.js"></script></head> <body class="min-h-screen"> <header class="border-b border-rule bg-parchment/90 backdrop-blur sticky top-0 z-30"> <div class="max-w-wide mx-auto flex flex-wrap items-baseline justify-between px-4 py-3 gap-3"> <a href="/apps/bridge_deterioration_model/" class="text-xl font-serif font-bold no-underline text-ink">
+Bridge&nbsp;HyperNetwork
+<span class="text-sm text-ink/60 font-sans font-normal">
+Region&nbsp;10
+</span> </a> <nav class="flex flex-wrap items-center gap-5 text-sm font-sans" aria-label="Primary navigation"> <a href="/apps/bridge_deterioration_model/">Map</a> <a href="/apps/bridge_deterioration_model/select">Select a bridge</a> <a href="/apps/bridge_deterioration_model/predict">Predict</a> <a href="/apps/bridge_deterioration_model/states">States</a> <a href="/apps/bridge_deterioration_model/methods">Methods</a> <button id="theme-toggle" type="button" class="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode" data-astro-cid-x3pjskd3> <svg class="theme-toggle__icon theme-toggle__icon--sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" data-astro-cid-x3pjskd3> <circle cx="12" cy="12" r="4" data-astro-cid-x3pjskd3></circle> <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" data-astro-cid-x3pjskd3></path> </svg> <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-astro-cid-x3pjskd3> <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" data-astro-cid-x3pjskd3></path> </svg> <span class="sr-only" data-astro-cid-x3pjskd3>Toggle dark mode</span> </button>   </nav> </div> </header> <main>  <section class="max-w-wide mx-auto px-4 py-12"> <h1 class="font-serif text-4xl font-bold mb-2">Your state</h1> <p class="text-ink/80 max-w-prose mb-8">
+Headline numbers for the four Region 10 states. "Controlling rating"
+      is the minimum of the three National Bridge Inventory component
+      ratings (deck, superstructure, substructure). "Poor" means a
+      controlling rating of four or below.
+</p> <div id="state-table-container" class="overflow-x-auto mb-10"> <table class="w-full text-left border-collapse" aria-describedby="state-summary-caption"> <caption id="state-summary-caption" class="sr-only">
+Region 10 state-level summary statistics.
+</caption> <thead> <tr class="border-b-2 border-rule"> <th class="py-2 pr-4">State</th> <th class="py-2 pr-4 text-right">Bridges</th> <th class="py-2 pr-4 text-right">Mean controlling rating</th> <th class="py-2 pr-4 text-right">Bridges in poor condition</th> <th class="py-2 pr-4 text-right">Poor share</th> </tr> </thead> <tbody id="state-summary-body"></tbody> </table> </div> <h2 class="font-serif text-2xl font-bold mb-2">Share of bridges in poor condition</h2> <div id="state-bar-chart" style="width:100%;height:240px"></div> </section>   </main> <footer class="border-t border-rule mt-16 py-6"> <div class="max-w-wide mx-auto px-4 text-xs text-ink/70 flex flex-wrap justify-between gap-3"> <span>
+Bridge HyperNetwork - PacTrans Small Project, Washington State
+          University. Data sources: FHWA NBI, State DOTs, NOAA, USGS.
+</span> </div> </footer> </body></html>

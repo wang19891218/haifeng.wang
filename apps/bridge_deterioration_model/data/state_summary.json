@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-01T02:38:21.138585+00:00",
+  "region": "FHWA Region 10 (WA, OR, ID, AK)",
+  "scope": "region10",
+  "states": [
+    {
+      "state": "WA",
+      "bridge_count": 8005,
+      "mean_min_rating": 6.2433479075577765,
+      "poor_count": 563,
+      "poor_pct": 7.033104309806371
+    },
+    {
+      "state": "OR",
+      "bridge_count": 7938,
+      "mean_min_rating": 5.91005291005291,
+      "poor_count": 547,
+      "poor_pct": 6.890904509952129
+    },
+    {
+      "state": "ID",
+      "bridge_count": 4608,
+      "mean_min_rating": 5.906032986111111,
+      "poor_count": 370,
+      "poor_pct": 8.02951388888889
+    },
+    {
+      "state": "AK",
+      "bridge_count": 1619,
+      "mean_min_rating": 5.957998764669549,
+      "poor_count": 194,
+      "poor_pct": 11.98270537368746
+    }
+  ],
+  "total_bridges": 22170
+}
