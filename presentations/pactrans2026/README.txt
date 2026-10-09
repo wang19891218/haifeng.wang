@@ -4,10 +4,10 @@ Version: v3_n32, built 2026-10-08
 
 Files
   index.html              Self-contained presentation; serve or open directly (no internet needed)
-  pactrans2026_deck.html  Same file under its original name
 
 Controls
-  Right/Left or Space   next / previous step
+  Right/Down or Space  next step
+  Left                 previous step
   Esc or o              slide overview
   f                     fullscreen
   n                     speaker notes overlay
@@ -15,5 +15,5 @@ Controls
 
 Note: speaker notes are embedded in the HTML.
 
-SHA-256 (index.html and pactrans2026_deck.html):
-  f98f9f35605c7ba2e2feccdc2eb1d7245cf7b71ad5d6650aeb2f0a4f3382caa0
+SHA-256 (index.html):
+  37bc0705a4030abbff95e345e0d321590359beddc2b274401f505601fde1806c
